@@ -139,12 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CarryForward.cpp" />
+    <ClCompile Include="CarryForward2.cpp" />
+    <ClCompile Include="CarryFwd_CountagPair.cpp" />
     <ClCompile Include="GreyCode_Recursion.cpp" />
+    <ClCompile Include="Leader_CarryFwd.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TowerOfHanoi_Recursion.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CarryFwd_CountagPair.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="Leader_CarryFwd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
