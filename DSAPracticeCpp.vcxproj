@@ -139,18 +139,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinSearch.cpp" />
     <ClCompile Include="CarryForward.cpp" />
     <ClCompile Include="CarryForward2.cpp" />
     <ClCompile Include="CarryFwd_CountagPair.cpp" />
+    <ClCompile Include="ContributionTech.cpp" />
     <ClCompile Include="GreyCode_Recursion.cpp" />
+    <ClCompile Include="HashingArray.cpp" />
     <ClCompile Include="Leader_CarryFwd.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PrefixQueriesClass.cpp" />
     <ClCompile Include="TowerOfHanoi_Recursion.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinSearch.h" />
     <ClInclude Include="CarryFwd_CountagPair.h" />
     <ClInclude Include="Common.h" />
+    <ClInclude Include="ContributionTech.h" />
+    <ClInclude Include="HashingArray.h" />
     <ClInclude Include="Leader_CarryFwd.h" />
+    <ClInclude Include="PrefixQueriesClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

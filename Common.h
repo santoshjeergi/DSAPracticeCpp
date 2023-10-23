@@ -3,6 +3,8 @@ using namespace std;
 #include<iostream>
 #include<string>
 #include<vector>
+#include <unordered_set>
+#include<unordered_map>
 void main_graycode();
 void  main_toh();
 int main_checkIfExists();
